@@ -1,0 +1,56 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("back.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .centered-div {
+    background-color: rgba(199, 138, 7, 0.267); /* Fond transparent */
+    padding: 20px;
+    border: 2px solid #000; /* Bordure solide de 2px */
+    border-radius: 10px; /* Coins arrondis */
+  }
+
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .icon.up {
+    color: green;
+  }
+  
+  .icon.down {
+    color: red;
+  }
